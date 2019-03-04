@@ -1,4 +1,8 @@
-### 从0到1学会Apache Flink-数据流编程模型
+---
+title: 从0到1学会Apache Flink-数据流编程模型
+date: 2019-03-04 06:49:50
+type: "tags"
+comments: false
 ---
 ######抽象层次
 Flink提供不同级别的抽象来开发流/批处理应用程序。

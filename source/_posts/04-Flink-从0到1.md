@@ -1,4 +1,6 @@
-### 从0到1学会Apache Flink-单机模式安装
+---
+title: 从0到1学会Apache Flink-单机模式安装
+tags: [spark,sparkSQL]
 ---
 ######环境准备
 为了能够运行Flink，唯一的要求是安装一个有效的Java 8.x.

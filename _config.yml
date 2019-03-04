@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: huweihuang
+theme: cube
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +81,22 @@ deploy:
   type: git
   repository: git@github.com:luca888/luca888.github.io.git
   branch: master
+
+#search box
+jsonContent:
+  pages:
+    title: true
+    text: true
+    path: true
+    preview: true
+  posts:
+    title: true
+    text: true
+    path: true
+    preview: true
+
+#开启搜索功能
+search: true    
+  
+
+avatar: http://cube-1252774894.cosgz.myqcloud.com/background.png
