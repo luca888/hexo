@@ -11,6 +11,9 @@ category: "hexo"
 ![](https://i.imgur.com/1h1FWgz.png)
 
 ######Job Managers, Task Managers, Clients
+
+<!--more-->
+
 ---
 Flink运行时包含两种类型的进程：
 

@@ -13,6 +13,8 @@
 >      -DarchetypeArtifactId=flink-quickstart-java      
 >      -DarchetypeVersion=1.7.1
 
+<!--more-->
+
 建设项目:
 >mvn clean package
 

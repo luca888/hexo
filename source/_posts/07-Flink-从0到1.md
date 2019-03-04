@@ -8,6 +8,8 @@
 下载Flink:
 >https://flink.apache.org/downloads.html#binaries
 
+<!--more-->
+
 解压:
 >tar -zxvf flink-*.tgz
 

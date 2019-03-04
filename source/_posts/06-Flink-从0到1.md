@@ -13,6 +13,8 @@
 
 ![](https://i.imgur.com/k0vRuio.png)
 
+<!--more-->
+
 ######编写SocketWindowWordCount程序:
 ---
 在maven项目中创建SocketWindowWordCount.java:
