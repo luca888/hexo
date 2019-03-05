@@ -6,7 +6,7 @@ tags:
 	- 入门
 ---
 
-######运行Flink自带的example:
+###### 运行Flink自带的example ######
 >cd flink-1.7.1
 
 > ./bin/flink run examples/streaming/WordCount.jar
@@ -20,7 +20,7 @@ tags:
 
 <!--more-->
 
-######编写SocketWindowWordCount程序:
+###### 编写SocketWindowWordCount程序 ######
 ---
 在maven项目中创建SocketWindowWordCount.java:
 
@@ -94,7 +94,7 @@ tags:
 
 ![](https://i.imgur.com/YFOq21Q.png)
 
-######运行示例:
+###### 运行示例 ######
 ---
 现在，我们将运行此Flink应用程序。它将从套接字读取文本，并且每5秒打印一次前5秒内每个不同单词的出现次数，即处理时间的翻滚窗口，只要文字漂浮在其中。
 
@@ -125,7 +125,7 @@ tags:
 
 ![](https://i.imgur.com/u1duXIe.png)
 
-######用flink-ui的方式提交任务:
+###### 用flink-ui的方式提交任务 ######
 ---
 * 首先，我们使用netcat来启动本地服务器
 

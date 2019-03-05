@@ -6,14 +6,14 @@ tags:
 	- 入门
 ---
 
-######Tasks and Operator Chains
+###### Tasks and Operator Chains ######
 
 对于分布式执行，弗林克链运营商子任务一起放入任务。每个任务由一个线程执行。将运营商链接到任务是一项有用的优化：它可以减少线程到线程切换和缓冲的开销，并在降低延迟的同时提高整体吞吐量。可以配置链接行为; 
 
 下图中的示例数据流由五个子任务执行，因此具有五个并行线程。
 ![](https://i.imgur.com/1h1FWgz.png)
 
-######Job Managers, Task Managers, Clients
+###### Job Managers, Task Managers, Clients ######
 
 <!--more-->
 
@@ -30,7 +30,7 @@ JobManagers和TaskManagers可以通过多种方式启动：作为独立集群直
 client 是不运行时和程序执行的一部分，而是被用来准备和发送的数据流的JobManager。之后，客户端可以断开连接或保持连接以接收进度报告。客户端既可以作为触发执行的Java / Scala程序的一部分运行，也可以在命令行进程中运行./bin/flink run ...。
 ![](https://i.imgur.com/3QQx6bM.png)
 
-######Task Slots and Resources
+###### Task Slots and Resources ######
 ---
 每个worker（TaskManager）都是一个JVM进程，可以在不同的线程中执行一个或多个子任务。为了控制工人接受的任务数量，工人有所谓的任务槽（至少一个）。
 
@@ -46,12 +46,12 @@ client 是不运行时和程序执行的一部分，而是被用来准备和发�
 
 ![](https://i.imgur.com/pGxEyYX.png)
 
-######State Backends
+###### State Backends ######
 ---
 存储键/值索引的确切数据结构取决于所选的状态后端。一个状态后端将数据存储在内存中的哈希映射中，另一个状态后端使用RocksDB作为键/值存储。除了定义保存状态的数据结构之外，状态后端还实现逻辑以获取键/值状态的时间点快照，并将该快照存储为检查点的一部分。
 ![](https://i.imgur.com/VCx554j.png)
 
-######Savepoints
+###### Savepoints ######
 ---
 用Data Stream API编写的程序可以从保存点恢复执行。保存点允许更新程序和Flink群集，而不会丢失任何状态。
 

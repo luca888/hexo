@@ -5,7 +5,7 @@ categories: flink
 tags:
 	- 入门
 ---
-######安装flink本地模式
+###### 安装flink本地模式 ######
 以win10为例:
 
 为了能够运行Flink，唯一的要求是安装一个有效的Java 8.x.

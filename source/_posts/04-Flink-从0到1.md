@@ -6,7 +6,7 @@ tags:
 	- 入门
 ---
 
-######环境准备
+###### 环境准备 ######
 为了能够运行Flink，唯一的要求是安装一个有效的Java 8.x.
 
 您可以通过发出以下命令来检查Java的正确安装：
@@ -23,7 +23,7 @@ tags:
 
 <!--more-->
 
-######下载
+###### 下载 ######
 下载页面:
 > https://flink.apache.org/downloads.html#binaries
 
@@ -33,7 +33,7 @@ tags:
 > cd flink-1.7.1
 
 
-######启动
+###### 启动 ######
 >./bin/start-cluster.sh  # Start Flink
 
 打开浏览器访问localhost:8081,出现如下页面启动成功:
@@ -64,6 +64,6 @@ tags:
 
 >INFO ... - Registering TaskManager ... under ... at the SlotManager.
 
-######停止
+###### 停止 ######
 ---
 >./bin/stop-cluster.sh
