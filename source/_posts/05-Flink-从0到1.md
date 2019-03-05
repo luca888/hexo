@@ -1,5 +1,11 @@
-### 从0到1学会Apache Flink-创建项目
+title: 从0到1学会Apache Flink-创建项目
+comments: true
+date: 2019-03-04 17:05:14
+categories: flink
+tags:
+	- 入门
 ---
+
 ######环境准备
 已安装了Maven 3.0.4（或更高版本）和Java 8.x.
 

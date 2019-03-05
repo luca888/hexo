@@ -1,8 +1,11 @@
----
 title: 从0到1学会Apache Flink-分布式运行环境
-category: "hexo"
+comments: true
+date: 2019-03-04 17:05:14
+categories: flink
+tags:
+	- 入门
 ---
-category: "hexo"
+
 ######Tasks and Operator Chains
 
 对于分布式执行，弗林克链运营商子任务一起放入任务。每个任务由一个线程执行。将运营商链接到任务是一项有用的优化：它可以减少线程到线程切换和缓冲的开销，并在降低延迟的同时提高整体吞吐量。可以配置链接行为; 
